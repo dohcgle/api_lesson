@@ -7,4 +7,4 @@ url = f'https://api.telegram.org/bot{token}/getUpdates'
 r = requests.get(url)
 data = r.json()
 updates = data['result']
-pprint(updates['text'])
+pprint(updates)
